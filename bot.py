@@ -11,7 +11,6 @@ client = commands.Bot(command_prefix = "+")
 creator = "MantisFan"
 creatortag = "MantisFan#0001"
 client.remove_command("help")
-prop = "NjkxOTY2MTE4NzEzMDk4MzEx.XqxDjw.TcLcfG4YqTR2bhVbBv0EZCdCAok"
 
 # Handles the errors
 @client.event
