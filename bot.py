@@ -11,6 +11,7 @@ client = commands.Bot(command_prefix = "+")
 creator = "MantisFan"
 creatortag = "MantisFan#0001"
 client.remove_command("help")
+prop = "NjkxOTY2MTE4NzEzMDk4MzEx.XqxDjw.TcLcfG4YqTR2bhVbBv0EZCdCAok"
 
 # Handles the errors
 @client.event
@@ -60,5 +61,5 @@ for filename in os.listdir("./cogs"):
 
 
 client.loop.run_until_complete(create_db_pool())
-client.run("NjkxOTY2MTE4NzEzMDk4MzEx.Xnnpzw.IPK6LUWnTNgDmvVx5tZEhpIHiyI")
+client.run(prop)
 
