@@ -60,5 +60,8 @@ for filename in os.listdir("./cogs"):
 
 
 client.loop.run_until_complete(create_db_pool())
-client.run(prop)
+client.run()
+        
+
+
 
