@@ -29,10 +29,6 @@ async def on_command_error(ctx, error):
 
 
 @client.event
-async def create_db_pool():
-    client.pg_con = await asyncpg.create_pool(database="SnowflakeDB", user="postgres", password="emasealu")
-
-@client.event
 async def on_ready():
     await client.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="Snowflakes Fall...| +help"))
     print(f"{client.user} is ready!")
@@ -59,7 +55,6 @@ for filename in os.listdir("./cogs"):
         client.load_extension(f"cogs.{filename[:-3]}")
 
 
-client.loop.run_until_complete(create_db_pool())
 client.run()
         
 
