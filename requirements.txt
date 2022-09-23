@@ -57,7 +57,7 @@ praw==6.5.1
 prawcore==1.0.1
 prometheus-client==0.7.1
 prompt-toolkit==3.0.4
-protobuf==3.6.1
+protobuf==3.18.3
 psutil==5.6.7
 py-cpuinfo==5.0.0
 pycparser==2.19
